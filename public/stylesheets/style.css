@@ -1,0 +1,55 @@
+body {
+  padding: 0px;
+  font: 20px , sans-serif, bold;
+  background-size: cover;
+}
+
+a {
+  color: #cedbe2;
+}
+
+fieldset {
+  margin-bottom: 0px;
+}
+
+input, textarea {
+  width: 350px;
+}
+
+.navbar-dark {
+  background-color:  #1e6574;
+}
+
+.badge-primary, .btn-primary {
+  background-color: #5fd311;
+  margin-top: 10px;
+}
+
+main {
+  padding: 25px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+} 
+p{
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+footer {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: #0e3d46;
+    color: aliceblue;
+}
+
+.bg-transparent {
+  color: #0d3c46; 
+}

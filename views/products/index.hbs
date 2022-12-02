@@ -1,0 +1,18 @@
+<h1>Products</h1>
+<a class="btn btn-secondary" href="/products/create">Add a New Product</a>
+<section class="row">
+    {{#each products}}
+        <div class="card col-3 m-2">
+            <div class="card-body text-center h-100">
+                <h5 class="card-title">Name: {{this.name}}</h5>
+                <h5 class="card-title">Quantity: {{this.quantity}}</h5>
+                <h5 class="card-title">Price: ${{this.price}}</h5>
+            <div>
+                <a href="/products/edit/{{this._id}}" class="bg-transparent">Edit</a>
+                <a href="/products/delete/{{this._id}}" class="text-danger" onclick="return confirmDelete()">Delete</a>
+              </div>
+            </div>
+
+        </div>
+    {{/each}}
+</section>
