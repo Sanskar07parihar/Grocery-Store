@@ -3,7 +3,7 @@ const router = express.Router()
 const passport = require('passport')
 const globals = require('./globalFunctions')
 
-
+// import Region model
 const Product = require('../models/product')
 
 function isAuthenticated(req, res, next){
